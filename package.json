@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "eafc-clubs-api": "^1.2.0",
+    "express": "^4.21.1"
+  }
+}
