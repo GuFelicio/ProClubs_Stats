@@ -17,7 +17,7 @@ with st.form("club_form"):
 if submit:
     if club_name:
         # Faz requisição ao servidor Node.js
-        api_url = "http://localhost:3000/fetch-club-info"
+        api_url = "https://proclubs-stats.onrender.com"
         payload = {"clubName": club_name, "platform": platform}
 
         with st.spinner("Buscando informações..."):
